@@ -11,4 +11,10 @@ const nextConfig = {
   },
 }
 
+module.exports = {
+  // Garanta que o diretório raiz está correto
+  basePath: '', // Opcional (para projetos em subdiretórios)
+}
+
+
 export default nextConfig
